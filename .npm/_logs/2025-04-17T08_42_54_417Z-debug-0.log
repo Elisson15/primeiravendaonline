@@ -1,0 +1,33 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.11.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/primeiravendaonline/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm run deploy
+8 verbose argv "run" "deploy"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-04-17T08_42_54_417Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-04-17T08_42_54_417Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose stack JSONParseError: Invalid package.json: JSONParseError: Unexpected non-whitespace character after JSON at position 3685 (line 110 column 1) while parsing near "...il\": \"^4.0.8\"\n  }\n}\n{\n  \"name\": \"rest-ex..."
+13 verbose stack     at parse (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/read-package.js:19:21)
+13 verbose stack     at PackageJson.fromJSON (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:162:22)
+13 verbose stack     at PackageJson.load (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:157:17)
+13 verbose stack     at async PackageJson.normalize (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/package-json/lib/index.js:117:5)
+13 verbose stack     at async #run (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/commands/run-script.js:86:13)
+13 verbose stack     at async RunScript.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/commands/run-script.js:40:7)
+13 verbose stack     at async Npm.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/npm.js:207:9)
+13 verbose stack     at async module.exports (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/cli/entry.js:67:5)
+14 error code EJSONPARSE
+15 error JSON.parse Invalid package.json: JSONParseError: Unexpected non-whitespace character after JSON at position 3685 (line 110 column 1) while parsing near "...il\": \"^4.0.8\"\n  }\n}\n{\n  \"name\": \"rest-ex..."
+16 error JSON.parse Failed to parse JSON data.
+16 error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+17 verbose cwd /data/data/com.termux/files/home/primeiravendaonline
+18 verbose os Linux 4.19.111-27127798
+19 verbose node v23.11.0
+20 verbose npm  v10.9.2
+21 verbose exit 1
+22 verbose code 1
+23 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2025-04-17T08_42_54_417Z-debug-0.log

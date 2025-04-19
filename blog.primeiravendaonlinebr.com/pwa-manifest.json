@@ -1,0 +1,52 @@
+{
+    "name": "PVO App",
+    "short_name": "PVO App",
+    "description": "Sua comunidade de marketing digital com aulas gratuitas, conteúdos exclusivos e networking para alavancar suas vendas.",
+    "icons": [
+        {
+            "src": "https:\/\/blog.primeiravendaonlinebr.com\/wp-content\/uploads\/2025\/02\/Untitled-design-5.png",
+            "sizes": "192x192",
+            "type": "image\/png",
+            "purpose": "any"
+        },
+        {
+            "src": "https:\/\/blog.primeiravendaonlinebr.com\/wp-content\/uploads\/2025\/02\/Untitled-design-5.png",
+            "sizes": "192x192",
+            "type": "image\/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "https:\/\/blog.primeiravendaonlinebr.com\/wp-content\/uploads\/2025\/02\/Untitled-design-6.png",
+            "sizes": "512x512",
+            "type": "image\/png",
+            "purpose": "any"
+        },
+        {
+            "src": "https:\/\/blog.primeiravendaonlinebr.com\/wp-content\/uploads\/2025\/02\/Untitled-design-6.png",
+            "sizes": "512x512",
+            "type": "image\/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "https:\/\/blog.primeiravendaonlinebr.com\/wp-content\/uploads\/2025\/02\/Background-Eraser-4.png",
+            "sizes": "512x512",
+            "type": "image\/png",
+            "purpose": "monochrome"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "https:\/\/blog.primeiravendaonlinebr.com\/wp-content\/uploads\/2025\/02\/Untitled-design-6.png",
+            "sizes": "512x512",
+            "type": "image\/png",
+            "purpose": "maskable",
+            "form_factor": "wide"
+        }
+    ],
+    "background_color": "#D5E0EB",
+    "theme_color": "#D5E0EB",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "https:\/\/blog.primeiravendaonlinebr.com\/",
+    "scope": "https:\/\/blog.primeiravendaonlinebr.com\/"
+}

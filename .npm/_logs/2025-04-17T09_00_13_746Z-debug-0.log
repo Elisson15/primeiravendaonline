@@ -1,0 +1,45 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.11.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/primeiravendaonline/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install esbuild-linux-arm64
+8 verbose argv "install" "esbuild-linux-arm64"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-04-17T09_00_13_746Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-04-17T09_00_13_746Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:996409344 maxSize:249102336 maxEntrySize:124551168
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest esbuild-linux-arm64@*
+16 silly packumentCache full:https://registry.npmjs.org/esbuild-linux-arm64 cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/esbuild-linux-arm64 2146ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/esbuild-linux-arm64 set size:undefined disposed:false
+19 silly placeDep ROOT esbuild-linux-arm64@0.15.18 OK for: rest-express@1.0.0 want: *
+20 verbose stack Error: Unsupported platform
+20 verbose stack     at checkPlatform (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-install-checks/lib/index.js:42:25)
+20 verbose stack     at #checkEngineAndPlatform (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:212:9)
+20 verbose stack     at Arborist.buildIdealTree (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:184:41)
+20 verbose stack     at async Promise.all (index 1)
+20 verbose stack     at async Arborist.reify (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:131:5)
+20 verbose stack     at async Install.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/commands/install.js:162:5)
+20 verbose stack     at async Npm.exec (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/npm.js:207:9)
+20 verbose stack     at async module.exports (/data/data/com.termux/files/usr/lib/node_modules/npm/lib/cli/entry.js:67:5)
+21 verbose pkgid esbuild-linux-arm64@0.15.18
+22 error code EBADPLATFORM
+23 error notsup Unsupported platform for esbuild-linux-arm64@0.15.18: wanted {"os":"linux","cpu":"arm64"} (current: {"os":"android","cpu":"arm64"})
+24 error notsup Valid os:   linux
+24 error notsup Actual os:  android
+24 error notsup Valid cpu:  arm64
+24 error notsup Actual cpu: arm64
+25 silly unfinished npm timer reify 1744880415484
+26 silly unfinished npm timer reify:loadTrees 1744880415488
+27 verbose cwd /data/data/com.termux/files/home/primeiravendaonline
+28 verbose os Linux 4.19.111-27127798
+29 verbose node v23.11.0
+30 verbose npm  v10.9.2
+31 verbose exit 1
+32 verbose code 1
+33 error A complete log of this run can be found in: /data/data/com.termux/files/home/.npm/_logs/2025-04-17T09_00_13_746Z-debug-0.log
